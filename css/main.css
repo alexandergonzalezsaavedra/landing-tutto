@@ -290,9 +290,9 @@ ul li {
 }
 .testimonios {
   padding: 5% 0;
-  text-align: center;
 }
 .testimonios .contenido-testimonios {
+  text-align: center;
   background: var(--blue-dark-300);
   padding: 5%;
   color: var(--white);
