@@ -1,0 +1,17 @@
+failure.png
+enlace:
+https://www.flaticon.com/free-icon/failure_9464572?term=client+error&page=1&position=2&origin=search&related_id=9464572
+
+Atribuir:
+<a href="https://www.flaticon.com/free-icons/error" title="error icons">Error icons created by Uniconlabs - Flaticon</a>
+
+
+
+enlace:
+https://www.flaticon.com/free-icon/graph_1130408?term=metrics+down&page=1&position=1&origin=search&related_id=1130408
+
+
+
+
+enlace:
+https://www.flaticon.com/free-icon/search_4959199?term=informed&page=1&position=70&origin=search&related_id=4959199
