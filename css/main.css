@@ -91,14 +91,21 @@ ul li {
 }
 .navbar {
   font-size: var(--font-min);
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 0;
+  transition: 0.3s;
 }
 .navbar .navbar-brand {
   width: 95px;
 }
 .navbar .btn i {
   font-size: 12px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--blue-dark-500) !important;
+  font-weight: 600;
+  transition: 0.3s;
 }
 .hero {
   width: 100%;
@@ -142,19 +149,19 @@ ul li {
   border-radius: 30px;
 }
 .cualidades .card-cualidades {
-  width: 75%;
-  background: var(--blue-dark-500); /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  width: 100%;
+  /* background: var(--blue-dark-500); */ /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(
     to right,
     var(--blue-dark-400),
     var(--blue-dark-500)
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+  ); */ /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
     to right,
     var(--blue-dark-400),
     var(--blue-dark-500)
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: var(--white);
+  ); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: var(--blue-dark-500) !important;
   padding: 40px 30px;
   border-radius: 20px;
   text-align: center;
@@ -169,13 +176,14 @@ ul li {
   border-radius: 50%;
 }
 .cualidades .icono {
-  position: relative;
-  width: 25%;
+  /* position: relative; */
+  width: 75px;
   /* border: solid 2px var(--blue-light-400); */
   /* padding: 20px; */
-  margin: auto;
+  /* margin: auto; */
   /* border-radius: 50px; */
   /* margin-bottom: -30px; */
+  margin-right: 20px;
   z-index: 5;
 }
 .previene {
@@ -271,6 +279,10 @@ ul li {
   border: solid 1px var(--white);
   border-radius: 50%;
 }
+.beneficios {
+  position: relative;
+  z-index: 2;
+}
 .card-beneficios {
   background: var(--grey-ligth);
   padding: 30px 20px;
@@ -303,24 +315,8 @@ ul li {
 .soluciones .card .card-body p {
   text-align: center;
 }
-.planes-tutto {
-  padding: 4% 0;
-  position: relative;
-  z-index: 2;
-}
-.planes-tutto img {
-  width: 100%;
-}
-.planes-tutto p {
-  width: 100%;
-  text-align: center;
-  background: var(--grey-ligth);
-  padding: 5%;
-  border-radius: 20px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
 .testimonios {
-  padding: 0 0 5% 0;
+  padding: 5% 0;
 }
 .testimonios .contenido-testimonios {
   position: relative;
@@ -328,7 +324,7 @@ ul li {
   background: var(--blue-dark-400);
   padding: 5%;
   color: var(--white);
-  border-radius: 30px;
+  border-radius: 20px;
   z-index: 2;
 }
 .testimonios .contenido-testimonios img {
@@ -368,23 +364,6 @@ ul li {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--white);
 }
-footer {
-  background: var(--black-500);
-  color: var(--white);
-}
-@keyframes zoom {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 .circles {
   position: absolute;
   top: 0;
@@ -404,6 +383,7 @@ footer {
   background: rgba(26, 45, 79, 0.1);
   animation: animate 25s linear infinite;
   bottom: -150px;
+  z-index: 0;
 }
 
 .circles li:nth-child(1) {
@@ -479,6 +459,25 @@ footer {
   height: 150px;
   animation-delay: 0s;
   animation-duration: 11s;
+}
+footer {
+  position: relative;
+  z-index: 2;
+  background: var(--black-500);
+  color: var(--white);
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes animate {
