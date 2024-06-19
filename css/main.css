@@ -38,6 +38,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   background-color: var(--blanco);
@@ -45,6 +46,7 @@ body {
   font-family: var(--font-primary);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 p {
   font-size: var(--font-min);
@@ -549,5 +551,13 @@ footer .subFooter p {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;
+  }
+}
+@media (max-width: 1440px) {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top.py-0 {
+    margin-top: 0;
+  }
+  .hero img {
+    width: 150% !important;
   }
 }
