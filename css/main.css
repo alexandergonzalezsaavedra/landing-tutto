@@ -19,7 +19,7 @@
   --blue-light-400: #3dc8f3;
   --blue-light-300: #80dbf9;
   --blue-light-200: #bceafb;
-  --grey-ligth: #f6f9fc;
+  --grey-ligth: #f3f2f1;
   --red-600: #d82c2f;
   --red-500: #e9494b;
   --red-400: #f37678;
@@ -32,6 +32,9 @@
 }
 * {
   font-family: var(--font-primary);
+}
+.c-wrapper {
+  overflow: hidden;
 }
 html {
   scroll-behavior: smooth;
@@ -73,6 +76,9 @@ ul li {
 }
 .text-color-secondary {
   color: var(--red-500);
+}
+.text-color-blue-light {
+  color: var(--blue-light-500);
 }
 .font-size-max {
   font-size: var(--font-max);
@@ -147,6 +153,7 @@ ul li {
   min-height: 600px;
 }
 .cualidades {
+  scroll-snap-align: start;
   position: relative;
   padding: 5% 0;
   z-index: 2;
@@ -182,7 +189,7 @@ ul li {
   padding: 5% 0;
   background: var(--grey-ligth);
   color: var(--black-200);
-  z-index: 2;
+  z-index: 0;
 }
 .previene .card {
   position: relative;
@@ -265,12 +272,12 @@ ul li {
   z-index: 2;
 }
 .card-beneficios {
-  padding: 30px 20px;
+  padding: 20px;
   color: var(--black-500);
   text-align: center;
   font-size: var(--font-med);
   border-radius: 10px;
-  margin-bottom: 7%;
+  margin-bottom: 0;
 }
 .card-beneficios img {
   width: 100px;
@@ -278,9 +285,11 @@ ul li {
 }
 .soluciones {
   position: relative;
-  padding: 5% 0;
+  padding: 8% 0;
   background-color: var(--grey-ligth);
-  z-index: 2;
+}
+.soluciones .card {
+  margin-bottom: 50px;
 }
 .soluciones .card,
 .soluciones .card .card-body {
@@ -288,22 +297,45 @@ ul li {
   border: none;
   padding: 0;
 }
+.soluciones .contenedor-img {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20%;
+  z-index: 2;
+}
+.soluciones .contenedor-img img {
+  position: relative;
+  z-index: 2;
+}
+.soluciones .card .card-header {
+  background: transparent;
+  border: none;
+}
+.soluciones .card .card-header p {
+  margin: 0;
+  font-weight: 600;
+  font-size: var(--font-med);
+  color: var(--blue-dark-500);
+}
 .soluciones .card .pro-item-tutto {
-  padding: 10px;
-  margin-bottom: 10px;
-  border-bottom: solid 1px var(--black-100);
+  margin: 0;
+  padding: 0;
+  padding: 5px;
+  margin-bottom: 0;
+  /* border-bottom: solid 1px var(--white); */
 }
 .soluciones .card .card-body .pro-item-tutto i {
   font-size: var(--font-med);
-  color: var(--green-wa);
+  color: var(--blue-light-500);
   margin-top: 5px;
 }
 .soluciones .card .card-body .pro-item-tutto p strong {
   text-align: left;
-  font-size: var(--font-med);
+  font-size: var(--font-min);
 }
 .soluciones .card .card-body .pro-item-tutto p {
   text-align: left;
+  margin-bottom: 0;
 }
 .testimonios {
   padding: 5% 0;
@@ -400,7 +432,8 @@ footer .subFooter p {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(26, 45, 79, 0.1);
+  background: url(../media/img/comun/animacion-bg-tutto.png);
+  background-size: cover;
   animation: animate 25s linear infinite;
   bottom: -150px;
   z-index: 0;
@@ -469,6 +502,25 @@ footer .subFooter p {
   height: 150px;
   animation-delay: 0s;
   animation-duration: 11s;
+}
+.btn-wa {
+  position: fixed;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 50px;
+  border-radius: 50%;
+  background: var(--green-wa);
+  color: var(--white);
+  border: solid 2px #ffffff;
+  z-index: 5;
+  bottom: 30px;
+  right: 30px;
+}
+.btn-wa:hover {
+  background: var(--green-wa);
+  color: var(--white);
 }
 @keyframes zoom {
   0% {
