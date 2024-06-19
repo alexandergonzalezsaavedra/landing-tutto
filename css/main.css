@@ -143,7 +143,7 @@ ul li {
   width: 100%;
   position: absolute;
   background: rgba(26, 45, 79, 0.9);
-  top: 0;
+  bottom: 0;
   height: 680px;
   z-index: 2;
 }
@@ -299,11 +299,14 @@ ul li {
 }
 .soluciones .contenedor-img {
   position: -webkit-sticky;
+  text-align: center;
   position: sticky;
   top: 20%;
   z-index: 2;
 }
 .soluciones .contenedor-img img {
+  width: 80%;
+  margin: auto;
   position: relative;
   z-index: 2;
 }
@@ -322,7 +325,6 @@ ul li {
   padding: 0;
   padding: 5px;
   margin-bottom: 0;
-  /* border-bottom: solid 1px var(--white); */
 }
 .soluciones .card .card-body .pro-item-tutto i {
   font-size: var(--font-med);
@@ -385,13 +387,13 @@ ul li {
   line-height: 50px;
   cursor: pointer;
   text-align: center;
-  background: var(--red-500);
+  background: var(--blue-light-500);
   color: var(--white);
   border-radius: 50%;
   transition: 0.3s;
 }
 .testimonios .btn-slide:hover {
-  background: var(--red-600);
+  background: var(--blue-dark-200);
   transition: 0.3s;
 }
 .agenda {
