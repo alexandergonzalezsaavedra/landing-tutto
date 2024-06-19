@@ -289,7 +289,7 @@ ul li {
 }
 .soluciones {
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   padding: 8% 0;
   background-color: var(--grey-ligth);
 }
