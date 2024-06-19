@@ -38,7 +38,6 @@
 }
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 body {
   background-color: var(--blanco);
@@ -46,7 +45,6 @@ body {
   font-family: var(--font-primary);
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 p {
   font-size: var(--font-min);
@@ -158,6 +156,7 @@ ul li {
   scroll-snap-align: start;
   position: relative;
   padding: 5% 0;
+  overflow-x: hidden;
   z-index: 2;
 }
 .cualidades img {
@@ -191,6 +190,7 @@ ul li {
   padding: 5% 0;
   background: var(--grey-ligth);
   color: var(--black-200);
+  overflow-x: hidden;
   z-index: 0;
 }
 .previene .card {
@@ -239,6 +239,7 @@ ul li {
 }
 .diferenciales {
   top: 25% !important;
+  overflow-x: hidden;
 }
 .card-diferencial {
   font-size: var(--font-med);
@@ -271,6 +272,7 @@ ul li {
 }
 .beneficios {
   position: relative;
+  overflow-x: hidden;
   z-index: 2;
 }
 .card-beneficios {
@@ -287,6 +289,7 @@ ul li {
 }
 .soluciones {
   position: relative;
+  overflow-x: hidden;
   padding: 8% 0;
   background-color: var(--grey-ligth);
 }
@@ -343,6 +346,7 @@ ul li {
 }
 .testimonios {
   padding: 5% 0;
+  overflow-x: hidden;
 }
 .testimonios .contenido-testimonios {
   position: relative;
@@ -400,11 +404,13 @@ ul li {
 }
 .agenda {
   padding: 5% 0;
+  overflow-x: hidden;
   background: var(--blue-dark-500);
   color: var(--white);
 }
 footer {
   position: relative;
+  overflow-x: hidden;
   background: var(--black-500);
   color: var(--white);
   z-index: 2;
