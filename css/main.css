@@ -595,8 +595,8 @@ footer .subFooter p {
   }
   .hero .overlay {
     height: 1020px;
-    top: 0;
-    bottom: auto;
+    bottom: 0;
+    top: auto;
   }
   .hero img {
     width: auto !important;
