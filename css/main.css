@@ -564,7 +564,15 @@ footer .subFooter p {
     border-radius: 50%;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 550px) {
+  ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    text-align: center;
+  }
+  nav .accesos-principales-movil {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
   .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
