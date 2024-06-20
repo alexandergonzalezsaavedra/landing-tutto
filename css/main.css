@@ -4,6 +4,9 @@
   --font-max: 36px;
   --font-med: 21px;
   --font-min: 16px;
+  --font-max-mov: 21px;
+  --font-med-mov: 18px;
+  --font-min-mov: 16px;
   --black-900: #1b1b1b;
   --black-500: #202020;
   --black-400: #3d3d3d;
@@ -157,6 +160,8 @@ ul li {
   position: relative;
   padding: 5% 0;
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
   z-index: 2;
 }
 .cualidades img {
@@ -559,11 +564,160 @@ footer .subFooter p {
     border-radius: 50%;
   }
 }
+@media (max-width: 320px) {
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .font-size-max {
+    font-size: var(--font-max-mov);
+  }
+  .font-size-med {
+    font-size: var(--font-med-mov);
+  }
+  .font-size-min {
+    font-size: var(--font-min-mov);
+  }
+  .hero .row {
+    margin-top: 80px;
+    padding-top: 6%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .line-height-50 {
+    line-height: 30px;
+  }
+  .hero .col-sm-5 {
+    padding: 0;
+  }
+  .hero {
+    height: 1020px;
+  }
+  .hero .overlay {
+    height: 1020px;
+    top: 0;
+    bottom: auto;
+  }
+  .hero img {
+    width: auto !important;
+    height: 100%;
+    margin-left: -250%;
+  }
+  .hero iframe {
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+  .cualidades {
+    padding: 15% 0;
+    overflow-y: hidden;
+  }
+  .cualidades .card-cualidades {
+    padding: 15px 20px;
+    background: none;
+    box-shadow: none;
+  }
+  .cualidades .icono {
+    width: 50px;
+    margin-top: -10px;
+    margin-right: 20px;
+  }
+  .previene .card {
+    height: auto;
+  }
+  .card-diferencial {
+    padding: 20px;
+    font-size: var(--font-min-mov);
+  }
+  .card-diferencial .col-sm-10 {
+    padding: 0;
+  }
+  .card-diferencial i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+  .card-diferencial .item {
+    margin-bottom: 15px;
+  }
+  .card-diferencial .item .col-1 {
+    padding: 0px;
+  }
+  .beneficios .col-sm-10 {
+    padding: 0;
+  }
+  .beneficios .card-beneficios {
+    padding: 20px 0px;
+  }
+  .beneficios .card-beneficios span {
+    display: table;
+    font-size: 17px;
+    width: 100%;
+  }
+  .beneficios .card-beneficios br {
+    display: none;
+  }
+  .soluciones .card {
+    margin-bottom: 20px;
+  }
+  .soluciones .card .pro-item-tutto {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .soluciones .card .card-header {
+    padding: 15px 0;
+  }
+  .soluciones .card .card-header p {
+    font-size: var(--font-med-mov);
+  }
+  .soluciones .col-1 {
+    padding: 0;
+  }
+  .soluciones p {
+    font-size: var(--font-min-mov);
+  }
+  .soluciones .card .card-body .pro-item-tutto p strong {
+    display: table;
+    width: 100%;
+  }
+  .soluciones .column-reverse-mov {
+    flex-direction: column-reverse;
+  }
+  .testimonios .contenido-testimonios {
+    padding: 5% 0;
+  }
+  .testimonios .contenido-testimonios .carousel.pointer-event {
+    padding: 0;
+  }
+  .testimonios .contenido-testimonios .carousel.pointer-event .col-sm-6 {
+    padding: 0;
+  }
+  .testimonios .contenido-testimonios p.comentario {
+    font-size: var(--font-min-mov);
+    padding: 20px;
+  }
+  .testimonios .contenido-testimonios p.comentario::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 15px;
+    height: 15px;
+    right: 50%;
+    left: auto;
+    bottom: -6px;
+    top: auto;
+    background-color: var(--blue-dark-500);
+    transform: rotate(45deg);
+  }
+  .testimonios .contenido-testimonios img {
+    width: 50%;
+    margin-top: 10px;
+  }
+}
 @media (max-width: 1440px) {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top.py-0 {
     margin-top: 0;
   }
   .hero img {
-    width: 150% !important;
+    width: 150%;
   }
 }
