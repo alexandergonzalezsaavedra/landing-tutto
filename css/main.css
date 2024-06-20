@@ -138,6 +138,7 @@ ul li {
 }
 .hero img {
   position: absolute;
+  opacity: 0.5;
   top: 0;
   z-index: 0;
   animation: zoom 30000ms infinite;
@@ -146,6 +147,7 @@ ul li {
   width: 100%;
   position: absolute;
   background: rgba(26, 45, 79, 0.9);
+  top: auto;
   bottom: 0;
   height: 680px;
   z-index: 2;
