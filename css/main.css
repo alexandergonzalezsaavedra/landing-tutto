@@ -568,7 +568,7 @@ footer .subFooter p {
     border-radius: 50%;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 430px) {
   ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     text-align: center;
   }
@@ -724,6 +724,169 @@ footer .subFooter p {
     margin-top: 10px;
   }
 }
+@media (min-width: 431px) and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    text-align: center;
+  }
+  nav .accesos-principales-movil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: solid 1px rgba(0, 0, 0, 0.2);
+  }
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .font-size-max {
+    font-size: var(--font-max-mov);
+  }
+  .font-size-med {
+    font-size: var(--font-med-mov);
+  }
+  .font-size-min {
+    font-size: var(--font-min-mov);
+  }
+  .hero .row {
+    padding-top: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .line-height-50 {
+    line-height: 30px;
+  }
+  .hero .col-sm-5 {
+    padding: 0;
+  }
+  .hero {
+    height: 700px;
+  }
+  .hero .overlay {
+    height: 700px;
+    padding-top: 65px;
+  }
+  .hero img {
+    width: auto !important;
+    height: 100%;
+    margin-left: -50%;
+  }
+  .hero iframe {
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+  .cualidades .col-sm-6,
+  .cualidades .col-sm-3 {
+    width: 33.33%;
+  }
+  .cualidades .card-cualidades {
+    background: none;
+    box-shadow: none;
+    padding: 20px;
+  }
+  .cualidades .icono {
+    width: 55px;
+  }
+  .previene .col-sm-3 {
+    width: 50%;
+  }
+  .contenedor-diferenciales-beneficios .card-diferencial {
+    padding: 20px;
+  }
+  .contenedor-diferenciales-beneficios .diferenciales {
+    top: 20% !important;
+  }
+  .contenedor-diferenciales-beneficios .card-diferencial .col-sm-10 {
+    width: 100%;
+    padding: 0;
+  }
+  .contenedor-diferenciales-beneficios .card-diferencial .item {
+    margin-bottom: 10px;
+  }
+  .contenedor-diferenciales-beneficios .card-diferencial .item .col-1 {
+    padding: 0;
+  }
+  .contenedor-diferenciales-beneficios .card-diferencial .item .col-1 i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: var(--font-min-mov);
+  }
+  .contenedor-diferenciales-beneficios .card-diferencial .item .col-11 {
+    font-size: var(--font-min-mov);
+  }
+  .col-sm-6.col-tablet-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-sm-6.col-tablet-6 .col-sm-10 {
+    width: 100%;
+  }
+  .testimonios {
+    padding: 5% 0 0 0;
+  }
+  .testimonios .contenido-testimonios {
+    padding: 5% 0;
+  }
+  .testimonios .col-sm-6 {
+    width: 100%;
+  }
+  .testimonios .col-sm-3 {
+    width: 100%;
+  }
+  .testimonios .contenido-testimonios .carousel.pointer-event {
+    padding: 0;
+  }
+  .testimonios .contenido-testimonios .carousel.pointer-event .col-sm-6 {
+    padding: 0;
+  }
+  .testimonios .contenido-testimonios p.comentario {
+    font-size: var(--font-min-mov);
+    padding: 20px;
+  }
+  .testimonios .contenido-testimonios p.comentario::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 15px;
+    height: 15px;
+    right: 50%;
+    left: auto;
+    bottom: -6px;
+    top: auto;
+    background-color: var(--blue-dark-500);
+    transform: rotate(45deg);
+  }
+  .testimonios .contenido-testimonios img {
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .testimonios .carousel-control-prev-icon,
+  .testimonios .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .testimonios .btn-slide {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    line-height: 33px;
+  }
+  .agenda .btn-danger {
+    font-size: var(--font-min-mov);
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+}
+
 @media (max-width: 1440px) {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top.py-0 {
     margin-top: 0;
