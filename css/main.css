@@ -585,7 +585,7 @@ footer .subFooter p {
     font-size: var(--font-max-mov);
   }
   .font-size-med {
-    font-size: var(--font-med-mov);
+    font-size: var(--font-max-mov);
   }
   .font-size-min {
     font-size: var(--font-min-mov);
