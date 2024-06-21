@@ -168,18 +168,21 @@ ul li {
   height: auto;
   z-index: 2;
 }
+
 .cualidades img {
   width: 100%;
   border-radius: 30px;
 }
+.cualidades .img-cualidades-mov {
+  width: 70%;
+  margin: auto;
+}
 .cualidades .card-cualidades {
   width: 100%;
-  background: var(--grey-ligth);
   color: var(--blue-dark-500) !important;
   padding: 20px 30px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .cualidades i {
   background: var(--red-500);
@@ -336,9 +339,11 @@ ul li {
 }
 .soluciones .card .pro-item-tutto {
   margin: 0;
-  padding: 0;
   padding: 5px;
   margin-bottom: 0;
+}
+.soluciones .card .pro-item-tutto strong {
+  font-weight: 500;
 }
 .soluciones .card .card-body .pro-item-tutto i {
   font-size: var(--font-med);
@@ -633,7 +638,7 @@ footer .subFooter p {
     margin-right: 20px;
   }
   .cualidades .img-cualidades-mov {
-    width: 250px;
+    width: 250px !important;
     margin: auto;
   }
   .previene .card {
