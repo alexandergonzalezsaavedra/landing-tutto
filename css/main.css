@@ -632,6 +632,10 @@ footer .subFooter p {
     margin-top: -10px;
     margin-right: 20px;
   }
+  .cualidades .img-cualidades-mov {
+    width: 250px;
+    margin: auto;
+  }
   .previene .card {
     height: auto;
   }
