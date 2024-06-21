@@ -568,7 +568,7 @@ footer .subFooter p {
     border-radius: 50%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     text-align: center;
   }
@@ -724,7 +724,7 @@ footer .subFooter p {
     margin-top: 10px;
   }
 }
-@media (min-width: 425px) and (max-width: 1024px) {
+@media (min-width: 501px) and (max-width: 1024px) {
   .container {
     max-width: 768px;
     padding-right: 0 !important;
