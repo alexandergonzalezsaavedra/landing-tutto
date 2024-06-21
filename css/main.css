@@ -419,10 +419,12 @@ ul li {
   transition: 0.3s;
 }
 .agenda {
+  position: relative;
   padding: 5% 0;
   overflow-x: hidden;
   background: var(--blue-dark-500);
   color: var(--white);
+  z-index: 5;
 }
 footer {
   position: relative;
