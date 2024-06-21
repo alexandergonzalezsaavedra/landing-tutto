@@ -574,6 +574,11 @@ footer .subFooter p {
     border-radius: 50%;
   }
 }
+@media (max-width: 375px) {
+  .hero .row {
+    margin-top: 45px !important;
+  }
+}
 @media (max-width: 500px) {
   ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     text-align: center;
