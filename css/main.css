@@ -109,7 +109,7 @@ ul li {
 }
 .navbar .navbar-brand {
   width: 95px;
-  padding: 10px;
+  padding: 0;
 }
 .navbar .btn i {
   font-size: 12px;
