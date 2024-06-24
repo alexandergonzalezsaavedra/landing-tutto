@@ -174,7 +174,6 @@ ul li {
   height: auto;
   z-index: 2;
 }
-
 .cualidades img {
   width: 100%;
 }
@@ -350,10 +349,9 @@ ul li {
 .soluciones .card .pro-item-tutto strong {
   font-weight: 500;
 }
-.soluciones .card .card-body .pro-item-tutto i {
-  font-size: var(--font-med);
-  color: var(--blue-light-500);
-  margin-top: 5px;
+.soluciones .card .card-body .pro-item-tutto .img-icono-check {
+  width: 20px;
+  margin-top: 0px;
 }
 .soluciones .card .card-body .pro-item-tutto p strong {
   text-align: left;
