@@ -10,5 +10,5 @@ if (window.innerWidth <= 768) {
         }
     });
 } else {
-    console.log("mayor a 768px");
+    return
 }
