@@ -355,7 +355,7 @@ ul li {
 }
 .soluciones .card .card-body .pro-item-tutto p strong {
   text-align: left;
-  font-size: var(--font-min);
+  font-size: var(--font-med);
 }
 .soluciones .card .card-body .pro-item-tutto p {
   text-align: left;
@@ -762,6 +762,7 @@ footer .redes-footer .btn-group.gap-3 {
   .soluciones .card .card-body .pro-item-tutto p strong {
     display: table;
     width: 100%;
+    font-size: var(--font-min);
   }
   .soluciones .column-reverse-mov {
     flex-direction: column-reverse;
