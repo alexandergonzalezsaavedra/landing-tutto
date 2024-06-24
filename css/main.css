@@ -144,7 +144,7 @@ ul li {
   border-radius: 10px;
   padding: 15px;
 }
-.hero img {
+.hero .bg-hero-img {
   position: absolute;
   width: auto;
   height: 680px;
@@ -152,6 +152,10 @@ ul li {
   top: 0;
   z-index: 0;
   animation: zoom 30000ms infinite;
+}
+.hero .redes svg {
+  width: 15px;
+  fill: #ffffff;
 }
 .hero .overlay {
   width: 100%;
@@ -466,9 +470,10 @@ footer .info-footer p.terminos-legales {
   margin-top: 50px;
   color: var(--black-300);
 }
-footer .info-footer p i {
+footer .info-footer p svg {
   width: 18px;
-  color: var(--black-200);
+  height: 13px;
+  fill: var(--black-200);
 }
 footer .info-footer hr {
   border-top: solid 1px var(--black-900);
@@ -483,6 +488,11 @@ footer .redes-footer .img-logo-tutto img {
   width: 150px;
   margin: auto;
   margin-bottom: 30px;
+}
+.redes-footer svg {
+  width: 15px;
+  height: 15px;
+  fill: var(--white);
 }
 footer .redes-footer .btn-group.gap-3 {
   padding: 10px;
@@ -578,8 +588,7 @@ footer .redes-footer .btn-group.gap-3 {
   text-align: center;
   width: 50px;
   height: 50px;
-  font-size: 30px;
-  line-height: 50px;
+  line-height: 45px;
   border-radius: 50%;
   background: var(--green-wa);
   color: var(--white);
@@ -587,6 +596,10 @@ footer .redes-footer .btn-group.gap-3 {
   bottom: 30px;
   right: 30px;
   z-index: 15;
+}
+.btn-wa svg {
+  fill: var(--white);
+  width: 25px;
 }
 .btn-wa:hover {
   background: var(--green-wa);
