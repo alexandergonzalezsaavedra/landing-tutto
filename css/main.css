@@ -125,13 +125,13 @@ ul li {
 }
 .posicion-ancla {
   position: absolute;
-  margin-top: -60px;
+  margin-top: -40px;
   width: 0;
   height: 0;
 }
 .hero {
   width: 100%;
-  height: 680px;
+  height: 700px;
   position: relative;
   overflow: hidden;
   background: var(--blue-dark-500);
@@ -147,7 +147,7 @@ ul li {
 .hero .bg-hero-img {
   position: absolute;
   width: auto;
-  height: 680px;
+  height: 700px;
   opacity: 0.5;
   top: 0;
   z-index: 0;
@@ -159,7 +159,7 @@ ul li {
 }
 .hero .overlay {
   width: 100%;
-  height: 680px;
+  height: 700px;
   padding-top: 120px;
   background: rgba(26, 45, 79, 0.9);
   position: absolute;
@@ -672,10 +672,10 @@ footer .redes-footer .btn-group.gap-3 {
     padding: 0;
   }
   .hero {
-    height: 1020px;
+    height: 1050px;
   }
   .hero .overlay {
-    height: 1020px;
+    height: 1050px;
     padding-top: 40px;
   }
   .hero img {
